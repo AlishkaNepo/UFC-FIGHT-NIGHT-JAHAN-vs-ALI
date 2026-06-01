@@ -1,2 +1,185 @@
-# UFC-FIGHT-NIGHT-JAHAN-vs-ALI
-UFC FIGHT NIGHT
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UFC FIGHT NIGHT:JAHAN vs ALI - Мобильная версия</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter', sans-serif; }
+    body { background-color:#111; color:#fff; line-height:1.5; padding:10px; }
+
+    header {
+      padding:15px;
+      background-color:#1a1a1a;
+      border-bottom:2px solid #e60000;
+    }
+
+    .header-inner{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .logo-wrap{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    header .logo {
+      font-size:22px;
+      font-weight:700;
+      color:#e60000;
+    }
+
+    .ufc-s-link{
+      font-size:14px;
+      font-weight:600;
+      color:#fff;
+      text-decoration:none;
+      padding:4px 12px;
+      border:1px solid #e60000;
+      border-radius:20px;
+      transition:0.2s;
+    }
+
+    .ufc-s-link:hover{
+      background:#e60000;
+      backgrounf-color:#e60000;
+    }
+
+    /* КНОПКА */
+    .header-btn{
+      background:#e60000;
+      color:#fff;
+      text-decoration:none;
+      padding:6px 12px;
+      border-radius:20px;
+      font-size:14px;
+      font-weight:600;
+      transition:0.2s;
+    }
+
+    .header-btn:hover{
+      background:#ff1a1a;
+    }
+
+    .event-header { margin:20px 0; text-align:center; }
+    .event-header h1 { font-size:20px; margin-bottom:5px; }
+    .event-header p { font-size:14px; color:#ccc; }
+
+    .fight-card {
+      background-color:#1a1a1a;
+      border:2px solid #e60000;
+      border-radius:12px;
+      padding:15px;
+      margin-bottom:20px;
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+      flex-wrap:nowrap;
+    }
+
+    .fighter {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+    }
+
+    .photo {
+      width:100px;
+      height:100px;
+      border-radius:50%;
+      border:3px solid #e60000;
+      overflow:hidden;
+      margin-bottom:5px;
+    }
+
+    .photo img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    .name { font-weight:600; font-size:16px; }
+
+    .vs {
+      font-size:24px;
+      font-weight:700;
+      color:#e60000;
+      margin:0 10px;
+    }
+
+    .weight {
+      font-size:14px;
+      color:#ccc;
+      text-align:center;
+      margin-top:5px;
+      width:100%;
+    }
+
+    footer {
+      text-align:center;
+      padding:15px;
+      background-color:#1a1a1a;
+      border-top:2px solid #e60000;
+      color:#ccc;
+      font-size:12px;
+    }
+
+    @media screen and (max-width:400px){
+      .photo { width:80px; height:80px; }
+      .name { font-size:14px; }
+      .vs { font-size:20px; margin:0 5px; }
+      .weight { font-size:12px; }
+      .header-btn{ font-size:12px; padding:5px 10px; }
+      .ufc-s-link{ font-size:12px; padding:3px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo-wrap">
+      <div class="logo">UFC FIGHT NIGHT:JAHAN vs ALI</div>
+      <a class="ufc-s-link" href="https://AlishkaNepo.github.io/P4P/" target="_blank">P4P</a>
+    </div>
+
+    <a class="header-btn" href="https://AlishkaNepo.github.io/UFC-S/" target="_blank">
+      UFC 344
+    </a>
+  </div>
+</header>
+
+<div class="event-header">
+  <h1>Главный кард — 16 Июня</h1>
+  <p>Место проведения: Мехико, Мексика</p>
+</div>
+
+<div class="fight-card">
+  <div class="fighter">
+    <div class="photo"><img src="jahan.jpg" alt="Жахан"></div>
+    <div class="name">Жахан</div>
+  </div>
+
+  <div class="vs">VS</div>
+
+  <div class="fighter">
+    <div class="photo"><img src="ali.jpg" alt="Али"></div>
+    <div class="name">Али</div>
+  </div>
+
+  <div class="weight">Лёгкий вес • Главный бой</div>
+</div>
+
+<footer>
+  © 2025 My Fight Promotion. Все права защищены.
+</footer>
+
+</body>
+</html>
